@@ -2,9 +2,9 @@
 
 input[type="button"] {
     border: none;
-    background: #555;
+    background: rgb(241, 241, 241);
     padding: 10px;
-    color: #fff;
+    color: rgb(235, 235, 235);
     width: 100px;
     border-radius: 10px;
     font-weight: bold;
@@ -19,8 +19,8 @@ input[type="button"] {
 }
 
 input[type="button"].green {
-    background: greenyellow;
-    color: #000;
+    background: rgb(47, 50, 255);
+    color: rgb(233, 233, 233);
 }
 
 input[type="button"]:hover {
@@ -93,7 +93,7 @@ select[disabled] {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: greenyellow;
+    background: rgb(47, 200, 255);
     cursor: pointer;
 }
 
@@ -105,7 +105,7 @@ select[disabled] {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background: #4caf50;
+    background: rgb(47, 200, 255);
     cursor: pointer;
 }
 

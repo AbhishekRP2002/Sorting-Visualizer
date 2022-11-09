@@ -1,10 +1,10 @@
 body {
-    background: #000;
+    background: rgb(241, 241, 241);
     margin: auto;
     padding: 0px;
     text-align: center;
     font-family: UbuntuL;
-    color: #fff;
+    color: rgb(19, 19, 19);
     display: grid;
     grid-template-areas: "algo-info menu" "algo-info container";
     grid-template-rows: 100px 1fr;
@@ -27,7 +27,7 @@ a#repository img {
 
 #algo-info {
     grid-area: algo-info;
-    background: #222;
+    background: rgb(216, 216, 216);
     height: 100%;
     width: 100%;
     padding: 100px 0px;
@@ -64,7 +64,7 @@ a#repository img {
     grid-area: container;
     width: 100%;
     height: 100%;
-    border-top: #333 10px solid;
+    border-top: rgb(216, 216, 216) 5px solid;
 }
 
 #bars {
@@ -74,7 +74,7 @@ a#repository img {
 }
 
 .bar {
-    background: green;
+    background: rgb(29, 51, 255);
     display: inline-block;
     border-right: 2px solid #000;
     margin: 0px;
@@ -97,7 +97,7 @@ a#repository img {
 }
 
 #menu {
-    background: #000;
+    background: rgb(208, 208, 208);
     grid-area: menu;
     display: grid;
     grid-template-areas: "sliders algos buttons" "sliders sort-order buttons";
